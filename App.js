@@ -29,7 +29,7 @@ const App = () => {
         />
         <View style={styles.restaurantNameContainer}>
           <View style={[styles.darkModeContainer, isDarkMode && styles.darkModeBackground]}>
-            <Text style={[styles.restaurantName, isDarkMode && styles.darkModeText]}>Kyoshi</Text>
+            <Text style={[styles.restaurantName, isDarkMode && styles.darkModeText]}>Kyoshi - rm551340</Text>
           </View>
           <View style={styles.separator} />
           <TouchableOpacity onPress={toggleDarkMode} activeOpacity={0.7}>
